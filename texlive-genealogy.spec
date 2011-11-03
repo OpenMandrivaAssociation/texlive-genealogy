@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /fonts/genealogy
+# catalog-date 2007-10-01 22:41:52 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-genealogy
 Version:	20071001
 Release:	1
@@ -45,6 +51,7 @@ distributed as MetaFont source.
 %doc %{_texmfdistdir}/doc/fonts/genealogy/licence.txt
 %doc %{_texmfdistdir}/doc/fonts/genealogy/testgen.dvi
 %doc %{_texmfdistdir}/doc/fonts/genealogy/testgen.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ distributed as MetaFont source.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
