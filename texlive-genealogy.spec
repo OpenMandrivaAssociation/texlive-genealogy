@@ -1,12 +1,12 @@
-# revision 15878
+# revision 25112
 # category Package
 # catalog-ctan /fonts/genealogy
-# catalog-date 2007-10-01 22:41:52 +0200
+# catalog-date 2011-04-10 21:40:35 +0200
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-genealogy
-Version:	20071001
-Release:	2
+Version:	20110410
+Release:	1
 Summary:	A compilation genealogy font
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/genealogy
@@ -23,7 +23,7 @@ A simple compilation of the genealogical symbols found in the
 wasy and gen fonts, essentially adding the male and female
 symbols to Knuth's 'gen' font, and so avoiding loading two
 fonts when you need only genealogical symbols. The font is
-distributed as MetaFont source.
+distributed as Metafont source.
 
 %post
     %{_sbindir}/texlive.post
@@ -40,7 +40,6 @@ distributed as MetaFont source.
 %{_texmfdistdir}/fonts/tfm/public/genealogy/drgen10.tfm
 %doc %{_texmfdistdir}/doc/fonts/genealogy/README
 %doc %{_texmfdistdir}/doc/fonts/genealogy/licence.txt
-%doc %{_texmfdistdir}/doc/fonts/genealogy/testgen.dvi
 %doc %{_texmfdistdir}/doc/fonts/genealogy/testgen.tex
 
 #-----------------------------------------------------------------------
