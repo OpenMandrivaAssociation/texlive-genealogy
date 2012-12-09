@@ -51,3 +51,21 @@ distributed as Metafont source.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110410-1
++ Revision: 762631
+- Update to latest upstream package
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20071001-2
++ Revision: 752238
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20071001-1
++ Revision: 718529
+- texlive-genealogy
+- texlive-genealogy
+- texlive-genealogy
+- texlive-genealogy
+
