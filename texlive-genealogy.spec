@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-genealogy
-Version:	20110410
-Release:	9
+Version:	20170414
+Release:	1
 Summary:	A compilation genealogy font
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/genealogy
