@@ -1,6 +1,6 @@
 Name:		texlive-genealogy
 Version:	25112
-Release:	1
+Release:	2
 Summary:	A compilation genealogy font
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/genealogy
