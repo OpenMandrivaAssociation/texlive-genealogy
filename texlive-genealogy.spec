@@ -3,7 +3,7 @@ Version:	25112
 Release:	2
 Summary:	A compilation genealogy font
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/genealogy
+URL:		https://www.ctan.org/tex-archive/fonts/genealogy
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/genealogy.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/genealogy.doc.r%{version}.tar.xz
